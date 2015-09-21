@@ -737,5 +737,6 @@ extern bool camdrv_ss_sensor_init_sub(bool bOn, struct camdrv_ss_sensor_cap *sen
 #endif
 
 extern unsigned int HWREV;
+extern struct camdrv_ss_state *to_state(struct v4l2_subdev *sd);
 
 #endif /* __CAMDRV_SS_H__ */
